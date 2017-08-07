@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author       = { "Kevin Lin" => "kevin_lyn@outlook.com" }
 
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/kevin0571/STPopup.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/m2f/STPopup.git", :branch => "master" }
 
   s.source_files = "STPopup/*.{h,m}"
   s.public_header_files = "STPopup/*.h"
